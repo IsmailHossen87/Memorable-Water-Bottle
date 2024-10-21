@@ -1,0 +1,15 @@
+.bottles{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.innerContain{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 60px;
+    margin-bottom: 10px;
+}
+.innerContain img{
+    width: 200px;
+    border-radius: 15px;
+}
